@@ -21,7 +21,7 @@ public class Phase2_GridExecution {
 
 		capab = new DesiredCapabilities();
 		capab.setBrowserName("chrome");
-		url = new URL("http://192.168.88.141:4444/wd/hub");
+		url = new URL("http://192.168.88.211:4444/wd/hub");
 		driver = new RemoteWebDriver(url, capab);
 
 		driver.get("https://www.youtube.com/");
@@ -35,7 +35,8 @@ public class Phase2_GridExecution {
 	}
 	
 	@AfterTest
-	public void closeWindows() {
+	public void closeWindows() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.quit();
 	}
 }

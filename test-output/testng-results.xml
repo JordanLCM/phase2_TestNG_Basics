@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-03T15:54:59 SGT" name="Suite" finished-at="2022-06-03T15:55:05 SGT" duration-ms="6819">
+  <suite started-at="2022-06-22T15:29:32 SGT" name="Suite" finished-at="2022-06-22T15:29:43 SGT" duration-ms="10519">
     <groups>
     </groups>
-    <test started-at="2022-06-03T15:54:59 SGT" name="Test001" finished-at="2022-06-03T15:54:59 SGT" duration-ms="13">
+    <test started-at="2022-06-22T15:29:32 SGT" name="Test001" finished-at="2022-06-22T15:29:38 SGT" duration-ms="5965">
+      <class name="phase2_TestNG_Basics001.Phase2_TestNG006_Parallel">
+        <test-method signature="parallelMethod()[pri:0, instance:phase2_TestNG_Basics001.Phase2_TestNG006_Parallel@58cd06cb]" started-at="2022-06-22T15:29:32 SGT" name="parallelMethod" finished-at="2022-06-22T15:29:38 SGT" duration-ms="5912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelMethod -->
+      </class> <!-- phase2_TestNG_Basics001.Phase2_TestNG006_Parallel -->
     </test> <!-- Test001 -->
-    <test started-at="2022-06-03T15:54:59 SGT" name="paralletTest" finished-at="2022-06-03T15:55:05 SGT" duration-ms="6819">
+    <test started-at="2022-06-22T15:29:32 SGT" name="paralletTest" finished-at="2022-06-22T15:29:43 SGT" duration-ms="10519">
       <class name="phase2_TestNG_Basics003.Phase2_GridExecution">
-        <test-method is-config="true" signature="executeOnGrid()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@2b48a640]" started-at="2022-06-03T15:54:59 SGT" name="executeOnGrid" finished-at="2022-06-03T15:55:04 SGT" duration-ms="5371" status="PASS">
+        <test-method is-config="true" signature="executeOnGrid()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@535b8c24]" started-at="2022-06-22T15:29:32 SGT" name="executeOnGrid" finished-at="2022-06-22T15:29:37 SGT" duration-ms="4418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeOnGrid -->
-        <test-method signature="performSomeActs()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@2b48a640]" started-at="2022-06-03T15:55:04 SGT" name="performSomeActs" finished-at="2022-06-03T15:55:05 SGT" duration-ms="1327" status="FAIL">
+        <test-method signature="performSomeActs()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@535b8c24]" started-at="2022-06-22T15:29:37 SGT" name="performSomeActs" finished-at="2022-06-22T15:29:40 SGT" duration-ms="3007" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <yt-icon id="icon" class="guide-icon style-scope ytd-mini-guide-entry-renderer">...</yt-icon> is not clickable at point (36, 162). Other element would receive the click: <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">...</yt-icon>
-  (Session info: chrome=102.0.5005.63)
+  (Session info: chrome=103.0.5060.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'CDWILT004', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'CDWILT004', ip: '192.168.88.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1b69a6e078e5ae1aa70ba71fd5e...}
-Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ba0318d7f7ad537fcb91addc05e...}
+Session ID: ba0318d7f7ad537fcb91addc05ea3a23]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <yt-icon id="icon" class="guide-icon style-scope ytd-mini-guide-entry-renderer">...</yt-icon> is not clickable at point (36, 162). Other element would receive the click: <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">...</yt-icon>
-  (Session info: chrome=102.0.5005.63)
+  (Session info: chrome=103.0.5060.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'CDWILT004', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'CDWILT004', ip: '192.168.88.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1b69a6e078e5ae1aa70ba71fd5e...}
-Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ba0318d7f7ad537fcb91addc05e...}
+Session ID: ba0318d7f7ad537fcb91addc05ea3a23
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -74,11 +80,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performSomeActs -->
-        <test-method is-config="true" signature="closeWindows()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@2b48a640]" started-at="2022-06-03T15:55:05 SGT" name="closeWindows" finished-at="2022-06-03T15:55:05 SGT" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="closeWindows()[pri:0, instance:phase2_TestNG_Basics003.Phase2_GridExecution@535b8c24]" started-at="2022-06-22T15:29:40 SGT" name="closeWindows" finished-at="2022-06-22T15:29:43 SGT" duration-ms="3081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindows -->
       </class> <!-- phase2_TestNG_Basics003.Phase2_GridExecution -->
+      <class name="phase2_TestNG_Basics001.Phase2_TestNG006_Parallel">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:phase2_TestNG_Basics001.Phase2_TestNG006_Parallel@58cd06cb]" started-at="2022-06-22T15:29:43 SGT" name="closeBrowser" finished-at="2022-06-22T15:29:47 SGT" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- phase2_TestNG_Basics001.Phase2_TestNG006_Parallel -->
     </test> <!-- paralletTest -->
   </suite> <!-- Suite -->
 </testng-results>

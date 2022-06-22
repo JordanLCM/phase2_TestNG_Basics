@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,6 +108,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="phase2_TestNG_Basics001.Phase2_TestNG006_Parallel" class="method navigator-link" hash-for-method="parallelMethod">parallelMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,12 +145,12 @@
                   </a> <!-- performSomeActs -->
                   <span class="method-name">performSomeActs</span>
                   <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;yt-icon id=&quot;icon&quot; class=&quot;guide-icon style-scope ytd-mini-guide-entry-renderer&quot;&gt;...&lt;/yt-icon&gt; is not clickable at point (36, 162). Other element would receive the click: &lt;yt-icon class=&quot;guide-icon style-scope ytd-guide-entry-renderer&quot;&gt;...&lt;/yt-icon&gt;
-  (Session info: chrome=102.0.5005.63)
+  (Session info: chrome=103.0.5060.53)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;CDWILT004&apos;, ip: &apos;172.31.224.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+System info: host: &apos;CDWILT004&apos;, ip: &apos;192.168.88.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1b69a6e078e5ae1aa70ba71fd5e...}
-Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\JORDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ba0318d7f7ad537fcb91addc05e...}
+Session ID: ba0318d7f7ad537fcb91addc05ea3a23
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -156,6 +170,21 @@ Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">phase2_TestNG_Basics001.Phase2_TestNG006_Parallel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parallelMethod">
+                  </a> <!-- parallelMethod -->
+                  <span class="method-name">parallelMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -166,10 +195,13 @@ Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
   &lt;parameter name=&quot;name&quot; value=&quot; testing&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test001&quot;&gt;
     &lt;parameter name=&quot;methodlogy&quot; value=&quot;Smoke&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;phase2_TestNG_Basics001.Phase2_TestNG006_Parallel&quot;/&gt;
+    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test001 --&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;paralletTest&quot;&gt;
     &lt;classes&gt;
@@ -187,7 +219,7 @@ Session ID: 1b69a6e078e5ae1aa70ba71fd5e1d206
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test001 (0 classes)</span>
+                <span class="test-name">Test001 (1 class)</span>
               </li>
               <li>
                 <span class="test-name">paralletTest (1 class)</span>
@@ -216,16 +248,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'performSomeActs')
-data.setCell(0, 2, 'phase2_TestNG_Basics003.Phase2_GridExecution')
-data.setCell(0, 3, 1327);
+data.setCell(0, 1, 'parallelMethod')
+data.setCell(0, 2, 'phase2_TestNG_Basics001.Phase2_TestNG006_Parallel')
+data.setCell(0, 3, 5912);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'performSomeActs')
+data.setCell(1, 2, 'phase2_TestNG_Basics003.Phase2_GridExecution')
+data.setCell(1, 3, 3007);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -256,16 +292,33 @@ return data;
                 <span class="method-name">executeOnGrid</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">phase2_TestNG_Basics001.Phase2_TestNG006_Parallel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">parallelMethod</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">phase2_TestNG_Basics003.Phase2_GridExecution</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">performSomeActs</span>
-                <span class="method-start">5392 ms</span>
+                <span class="method-start">4420 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeWindows</span>
-                <span class="method-start">6724 ms</span>
+                <span class="method-start">7429 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">phase2_TestNG_Basics001.Phase2_TestNG006_Parallel</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10540 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
