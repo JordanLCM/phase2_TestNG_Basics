@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="SeleniumLib/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="SeleniumLib/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="SeleniumLib/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="SeleniumLib/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="SeleniumLib/freemarker-2.3.30.jar"/>
+	<classpathentry kind="lib" path="SeleniumLib/jsoup-1.14.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
